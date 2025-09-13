@@ -22,7 +22,7 @@
     		exit();
 		}
 	}
-
+	/*hola*/ 
 	function ejecutarSQL() {
 		getConexion();
 		global $cn;
