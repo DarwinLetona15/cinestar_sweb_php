@@ -1,7 +1,7 @@
 <?php
 
   include('db.php');
-  BaseDatos('localhost','root','','cinestar');
+  BaseDatos('localhost:3307','root','E$vtaYjk97c3','cinestar');
  
   $parametros = $_SERVER['REQUEST_URI'];
   $parametros = str_replace("%20", " ", $parametros);
